@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Lev Solomadin](https://up.htmlacademy.ru/htmlcss/25/user/1009677).
-* Наставник: `Гоша Егорян`.
+* Наставник: [Гоша Егорян](https://htmlacademy.ru/profile/id85633).
 
 ---
 
