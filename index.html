@@ -8,28 +8,27 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
-        <img src="img/index-logo.svg" width="138" height="71" alt="логотип Седоны">
+        <img src="img/logo-sedona.svg" width="138" height="71" alt="логотип Седоны">
       </a>
-        <ul class="site-navigation">
-          <li><a href="info.HTML">ИНФОРМАЦИЯ</a></li>
-          <li><a href="Content.HTML">ФОТО И ВИДЕО</a></li>
-          <li><a href="Map.HTML">КАРТА ШТАТА</a></li>
-          <li><a href="Hotels.HTML">ГОСТИНИЦЫ</a></li>
-        </ul>
+      <ul class="site-navigation">
+        <li><a href="info.HTML">Информация</a></li>
+        <li><a href="Content.HTML">Фото и видео</a></li>
+        <li><a href="Map.HTML">Карта штата</a></li>
+        <li><a class="site-navigation-active" href="hotels.html">Гостиницы</a></li>
+      </ul>
       </nav>
     </header>
     <main class="container">
-
       <div class="background-photo">
         <img src="img/background-photo.png" alt="дивные виды">
       </div>
 
       <div class="advert-image">
-        <img src="img/advert-image.svg" alt="логотип лендинга" width="458" height="352">
+        <img src="img/intro-welcome.svg" alt="логотип лендинга" width="458" height="352">
       </div>
 
       <div class="separator">
-      <img src="polygon.svg" alt="separator image">
+      <img src="img/polygon.svg" width="1200" height="57" alt="separator image">
     </div>
 
 
@@ -61,10 +60,43 @@
 <section class="appointment">
   <h2>Поиск гостиницы в Седоне</h2>
   <p class="guest-info">
-  <!-- Здесь будет форма -->
-  </p>
-  <a class="button" href="https://booking.com">Найти</a>
-</section>
+    <section class="modalhotel">
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <label for="start" style="display:block">Дата заезда:
+        </label>
+
+    <div style="position:relative">
+    <img src="img/calendar.svg" width="21" height="23" alt="дата заезда">
+    <input type="date" id="start" name="trip-start-date"
+           value="2019-05-20"
+           min="2019-05-20" max="2048-12-31">
+           </div>
+
+        <label for="end" style="display:block">Дата выезда:
+        </label>
+
+    <div style="position:relative">
+      <img src="img/calendar.svg" width="21" height="23" alt="дата выезда">
+      <input type="date" id="end" name="trip-end-date"
+              value="2019-05-20"
+              min="2019-05-20" max="2048-12-31">
+               </div>
+
+               <label for="adult" style="display:block">Взрослые:
+               </label>
+               <input id="adult" type="number" value="42">
+               <button type="button" name="+"></button>
+               <button type="button" name="-"></button>
+
+               <label for="child" style="display:block">Дети:
+               </label>
+               <input id="child" type="number" value="42">
+               <button type="button" name="+"></button>
+               <button type="button" name="-"></button>
+           <button type="submit">Найти</button>
+         </form>
+           </section>
+    </section>
 
     </main>
 
@@ -73,16 +105,28 @@
       <div class="fotter-social">
         <b>Мы с социальных сетях</b>
         <ul>
-        <li><a class="social-button" href="#">Twitter</a></li>
-        <li><a class="social-button" href="#">Facebook</a></li>
-        <li><a class="social-button" href="#">Youtube</a></li>
+        <li><a class="social-button" href="#">Twitter
+          <img src="img/twitter.svg" width="17" height="17" alt="Twitter">
+        </a>
+        </li>
+        <li><a class="social-button" href="#">Facebook
+          <img src="img/fb-icon.svg" width="12" height="22" alt="Facebook">
+        </a>
+        </li>
+        <li><a class="social-button" href="#">Youtube
+          <img src="img/youtube.svg" width="12" height="22" alt="Youtubechanell">
+        </a>
+        </li>
         </ul>
       </div>
       <p class="footer-copyright">
         <b>Website by</b>
-        <a class="button" href="https://htmlacademy.ru">html Academy</a>
+        <a class="button" href="https://htmlacademy.ru">
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlacademylogo">
+      </a>
       </p>
   </footer>
+
 
   </body>
 </html>
