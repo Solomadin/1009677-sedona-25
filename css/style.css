@@ -1,0 +1,124 @@
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: normal;
+  text-align: center;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+}
+.site-navigation {
+  font-family: "PT Sans"
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.main-header-logo {
+  position: relative;
+  display: block;
+  width: 140px;;
+  height: 71px;
+  background: url("img/logo-sedona.svg");
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
+.advert-image {
+  min-height: 510px;
+  width: 100%;
+  padding: auto;
+  background-image: url("img/intro-welcome.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+
+  .h1 {
+    font-family: "PT Sans"
+    font-size: 30px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+
+  }
+
+  .h2 {
+    font-family: "PT Sans"
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+
+  }
+
+  .h3 {
+    font-family: "PT Sans"
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: regular;
+
+  }
+
+  .separator {
+  width: 1201px;
+  height: 59px;
+  background-position: center;
+  font-size: 0;
+  display: block;
+  background-image: url("/img/polygon.svg");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+
+
+.date {
+    position: absolute;
+    }
+
+
+  .social-link {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 0;
+  display: block;
+}
+.twitter-link {
+  background-image: url("../img/twitter.svg");
+}
+.twitter-link:hover,
+.twitter-link:focus {
+  background-color: #669ec0;
+}
+.twitter-link:active {
+  background-color: #5496bd;
+}
+.facebook-link {
+  background-image: url("../img/fb-icon.svg");
+}
+.facebook-link:hover,
+.facebook-link:focus {
+  background-color: #669ec0;
+}
+.facebook-link:active {
+  background-color: #5496bd;
+}
+.youtube-link {
+  background-image: url("../img/youtube.svg");
+}
+.youtube-link:hover,
+.youtube-link:focus {
+  background-color: #669ec0;
+}
+.youtube-link:active {
+  background-color: #5496bd;
+}
