@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона – удивительный мир приключений</title>
+    <link href="css/normalize.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -31,52 +34,69 @@
       <img src="img/polygon.svg" width="1200" height="57" alt="separator image">
     </div>
 
+    <section class="about">
+         <h2 class="text-title">Седона – небольшой городок в Аризоне, заслуживающий большего!</h2>
+         <p class="text-for-reason">рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+         <section class="reasons-item">
+           <h3 class="text-white title">настоящий городок</h3>
+           <p class="text-uppercase text-white"> – №1 – </p>
+           <p class="text-uppercase text-white">Седона – не атракцион для туристов, там течет своя жизнь</p>
+         </section>
+         <div class="picture">
+           <img src="img/main_point.png" width="800" height="256" alt="Главная причина посетить Седону">
+         </div>
 
-      <h1 class="visually-hedden">Седона — небольшой городок в Аризоне, заслуживающий большего! </h1>
-      <div class="subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</div>
+         <div class="more-reasons">
+           <ul class="more-reasons">
+             <li class="reasons-item">
+               <img src="img/icon-1.svg" width="75" height="72" alt="жилье">
+               <h3 class="title">жильё</h3>
+               <p class="text-uppercase">рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+             </li>
+             <li class="reasons-item">
+               <img src="img/icon-3.svg" width="74" height="70" alt="еда">
+               <h3 class="title">еда</h3>
+               <p class="text-uppercase">всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
+             </li>
+             <li class="reasons-item">
+               <img src="img/icon-2.svg" width="64" height="76" alt="сувениры">
+               <h3 class="title">сувениры</h3>
+               <p class="text-uppercase">не только китайского, но и местного производства!</p>
+             </li>
+           </ul>
+         </div>
+
+         <section class="reasons-item">
+           <h3 class="text-white title">там есть мост дьявола</h3>
+           <p class="text-uppercase text-white">-№2-</p>
+           <p class="text-uppercase text-white">да, по нему можно пройтись! если конечно вы осмелитесь</p>
+         </section>
+         <div class="picture">
+           <img src="img/devil.png" width="800" height="256" alt="Мост Дьявола">
+         </div>
+         <ul class="reasons-item">
+           <li class="reasons-item">
+             <h3 class="text-black title">небольшая площадь</h3>
+             <p class="text-uppercase background-grey">-№3-</p>
+             <p class="text-uppercase background-grey">все достопримечательности находятся очень близко</p>
+           </li>
+           <li class="reasons-item">
+             <h3 class="text-black title">красивая дорога</h3>
+             <p class="text-uppercase background-grey">-№4-</p>
+             <p class="text-uppercase background-grey">ехать в седону из лас-вегаса совсем не скучно!</p>
+           </li>
+           <li class="reasons-item">
+             <h3 class="text-black title">мало туристов</h3>
+             <p class="text-uppercase background-grey">-№5-</p>
+             <p class="text-uppercase background-grey">большинство едет в гранд каньон и толпится там</p>
+           </li>
+         </ul>
+
+       </section>
 
 
 
-
-
-      <section class="features">
-        <h2 class="visually-hedden">Преимущества</h2>
-        <ul class="features-list">
-          <li class="feature-item">
-            <h3>Жильё</h3>
-            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-          </li>
-          <li class="feature-item">
-            <h3>Еда</h3>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-          </li>
-          <li class="feature-item">
-            <h3>Сувениры </h3>
-            <p>Не только китайского, но и местного производства!</p>
-          </li>
-        </ul>
-
-      </section>
-
-      <h2>Преимущества</h2>
-      <ul class="advantage-list">
-        <li>Настоящий городок</li>
-        <li>Мост дьявола</li>
-        <li>Небольшая площадь</li>
-        <li>Красивая дорога</li>
-        <li>Мало туристов</li>
-        <li>
-          <ul class="more-advantages">
-            <li>Жильё</li>
-            <li>Еда</li>
-            <li>Сувениры</li>
-          </ul>
-        </li>
-        </ul>
-
-
-
-<p class="headline">Заинтересовались?</p>
+<p class="headline"><h1>Заинтересовались?</h1></p>
 <p class="subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне </p>
 
 <section class="appointment">
@@ -90,6 +110,7 @@
     <div style="position:relative">
     <img src="img/calendar.svg" width="21" height="23" alt="дата заезда">
     <input type="date" id="start" name="trip-start-date"
+           placeholder="укажите дату выезда"
            value="2019-05-20"
            min="2019-05-20" max="2048-12-31">
            </div>
@@ -100,19 +121,20 @@
     <div style="position:relative">
       <img src="img/calendar.svg" width="21" height="23" alt="дата выезда">
       <input type="date" id="end" name="trip-end-date"
+              placeholder="укажите дату отъезда"
               value="2019-05-20"
               min="2019-05-20" max="2048-12-31">
                </div>
 
                <label for="adult" style="display:block">Взрослые:
                </label>
-               <input id="adult" type="number" value="42">
+               <input id="adult" type="number" placeholder="сколько взрослых?" value="42">
                <button type="button" name="+"></button>
                <button type="button" name="-"></button>
 
                <label for="child" style="display:block">Дети:
                </label>
-               <input id="child" type="number" value="42">
+               <input id="child" type="number" placeholder="сколько детей?" value="42">
                <button type="button" name="+"></button>
                <button type="button" name="-"></button>
            <button type="submit">Найти</button>
@@ -122,7 +144,6 @@
 
     </main>
 
-    <footer class="main-footer">
       <p class="hashtag">#visitSEDONA</p>
       <div class="fotter-social">
         <b>Мы с социальных сетях</b>
