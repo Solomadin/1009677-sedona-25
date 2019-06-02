@@ -2,27 +2,22 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Отели Седона</title>
-    <style media="screen">
-    .date {
-      position: absolute;
-
-
-    }
-
-    </style>
+    <title>HTML Academy: Седона – удивительный мир приключений</title>
+    <link href="css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
-        <img src="img/logo-sedona.svg" width="138" height="71" alt="логотип Седоны">
+        <a class="main-header-logo">
+          <img src="img/logo-sedona.svg" width="138" height="71" alt="логотип Седоны">
       </a>
       <ul class="site-navigation">
         <li><a href="info.HTML">Информация</a></li>
         <li><a href="Content.HTML">Фото и видео</a></li>
         <li><a href="Map.HTML">Карта штата</a></li>
-        <li><a class="site-navigation-active">Гостиницы</a></li>
+        <li><a class="site-navigation-active" href="hotels.html">Гостиницы</a></li>
       </ul>
       </nav>
     </header>
@@ -71,24 +66,21 @@
   </main>
 
   <footer class="main-footer">
-    <p class="hashtag">#visitSEDONA</p>
-    <div class="footer-social">
-      <b>Мы с социальных сетях</b>
-      <ul>
-      <li><a class="social-button" href="#">Twitter
-        <img src="img/twitter.svg" width="17" height="17" alt="Twitter">
-      </a>
-      </li>
-      <li><a class="social-button" href="#">Facebook
-        <img src="img/fb-icon.svg" width="12" height="22" alt="Facebook">
-      </a>
-      </li>
-      <li><a class="social-button" href="#">Youtube
-        <img src="img/youtube.svg" width="12" height="22" alt="Youtubechanell">
-      </a>
-      </li>
-      </ul>
-    </div>
+  </section>
+  <section class="map">
+    <h2 class="visually-hidden">Как добраться до Седоны</h2>
+    <p><img src="img/map.png" width="1200" height="593" alt="Карта как доехать до Седоны"></p>
+    <button class="modal-close">закрыть</button>
+  </section>
+</main>
+
+<footer class="main-footer">
+  <span class="hashtag">#VISITSEDONA</span>
+  <ul class="footer-social">
+    <li><a class="social-link twitter-link" href="#">Twitter</a>
+    <li><a class="social-link facebook-link" href="#">Facebook</a>
+    <li><a class="social-link youtube-link" href="#">Youtube</a>
+  </ul>
     <p class="footer-copyright">
       <b>Website by</b>
       <a class="button" href="https://htmlacademy.ru">
