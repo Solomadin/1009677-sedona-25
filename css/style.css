@@ -8,7 +8,19 @@ body {
   background-color: #f2f2f2;
   text-transform: uppercase;
 }
+
+.main-header{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+
+}
 .site-navigation {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
   font-family: "PT Sans"
   font-size: 14px;
   line-height: 26px;
@@ -18,8 +30,25 @@ body {
   background-color: #ffffff;
 }
 
+.site-navigation-item {
+justify-content: center;
+display: flex;
+text-decoration: none;
+width: 239px;
+padding: 14px 0 16px;
+font-family: "PT Sans"
+font-size: 14px;
+line-height: 26px;
+color: #000000;
+font-weight: bold;
+text-transform: uppercase;
+background-color: #ffffff;
+
+}
+
 .main-header-logo {
-  position: relative;
+  left: calc(50% - 70px);
+  position: absolute;
   display: block;
   width: 140px;;
   height: 71px;
@@ -36,6 +65,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
 
 
   .h1 {
@@ -79,7 +110,7 @@ body {
 
 
 .date {
-    position: absolute;
+  position: absolute;
     }
 
 
